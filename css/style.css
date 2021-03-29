@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none !important;
+    list-style: none;
+}
+body{
+    font-family: 'Ubuntu';
+    font-weight: 400;
+}
+
+header{
+    text-align: center;
+    padding: 220px 0 230px;
+    background: url(../images/2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: #fff;
+}
+
+.header__date{
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    margin: 36px 0 32px;
+    font-size: 31px;
+}
+
+.header__text{
+    font-size: 20px;
+    line-height: 28px;
+    width: 605px;
+    margin: 0 auto 40px;
+}
+
+.header__btn{
+    padding: 20px 25px;
+    color: #fff !important;
+    font-family: 'Montserrat';
+    font-size: 17px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    background: #6a7079;
+    display: inline-flex;
+    align-items: center;
+    margin: 0 15px;
+}
+
+.register .fa{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    color: #6a7079;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px;
+}
+
+.header__btn:hover{
+    background: #7ea4e8;
+}
+
+.header__btn:hover .fa-angle-right{
+    color: #7ea4e8 !important;
+}
+.title{
+    font-size: 30px;
+    color: #828669;
+    font-family: 'Montserrat';
+    margin-bottom: 35px;
+    text-transform: uppercase;
+    
+}
+.subtitle{
+    color: #828669;
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+.text{
+    color: #828669;
+    font-size: 17px;
+    line-height: 25px;
+}
+
